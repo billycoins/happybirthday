@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>You've got new emails</title>
+  <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&family=Allura&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- SCREEN 1: envelope -->
+  <main class="screen on" id="s1">
+    <div class="s1-wrap">
+      <h1>hey babe!</h1>
+      <button class="env" id="envBtn" aria-label="Open the envelope">
+        <!-- 📷 OPTIONAL: to use your own envelope picture, delete the <svg> below
+             and put: <img src="images/envelope.png" alt=""> -->
+        <svg viewBox="0 0 190 138" aria-hidden="true">
+          <rect x="2" y="2" width="186" height="134" rx="12" fill="#ee6f73"/>
+          <path d="M2 14 Q2 2 14 2 H176 Q188 2 188 14 L95 82 Z" fill="#f48a8c"/>
+          <path d="M2 136 L74 66 M188 136 L116 66" stroke="#e2575c" stroke-width="3" fill="none"/>
+          <path d="M95 92 C70 72 74 48 95 58 C116 48 120 72 95 92Z" fill="#dc1f26"/>
+        </svg>
+      </button>
+      <p>you've got new emails</p>
+    </div>
+  </main>
+
+  <!-- SCREEN 2: red card -->
+  <main class="screen" id="s2">
+    <div class="card">
+      <div class="meta">
+        <b>From:Ramon</b> <span id="from"></span><br>
+        <b>To:His Princess</b> <span id="to"></span>
+      </div>
+      <div class="msg">Message:<p>Check out this awesome surprises for YOU!</p></div>
+      <button class="go" id="goBtn">see attachment</button>
+    </div>
+  </main>
+
+  <!-- SCREEN 3: birthday letter -->
+  <main class="screen" id="s3">
+    <svg class="flags" id="flags" preserveAspectRatio="none" viewBox="0 0 800 56" aria-hidden="true"></svg>
+
+    <div class="letter">
+      <div class="sticker">
+        <!-- 📷 YOUR PHOTO GOES HERE:
+             save your picture in the "images" folder as photo.jpg
+             (or change the file name below to match yours) -->
+        <img class="photo" src="photo_2026-10-20_23-23-27.jpg" alt="Birthday photo">
+
+        <!-- decorations around the photo (hat, stars, bolt, cake) -->
+        <svg class="deco" viewBox="0 0 250 255" aria-hidden="true">
+          <g stroke="#fff" stroke-width="5" stroke-linejoin="round">
+            <path d="M30 112 l7 14 15 2 -11 11 3 15 -14-8 -14 8 3-15 -11-11 15-2z" fill="#274a8f"/>
+            <path d="M222 70 l6 12 13 2 -10 9 3 13 -12-7 -12 7 3-13 -10-9 13-2z" fill="#b3283c"/>
+            <path d="M232 160 l5 10 11 2 -8 8 2 11 -10-6 -10 6 2-11 -8-8 11-2z" fill="#b3283c"/>
+            <path d="M172 14 l28-6 -9 22 20-4 -34 34 8-22 -18 4z" fill="#d8283a"/>
+            <path d="M92 70 L128 6 L164 72Z" fill="#f2cf3c"/>
+            <path d="M16 226 Q18 204 50 202 Q82 204 84 226 Q84 246 50 248 Q16 246 16 226Z" fill="#fbe7a0"/>
+          </g>
+          <circle cx="128" cy="6" r="6" fill="#d8283a" stroke="#fff" stroke-width="3"/>
+          <text x="128" y="58" font-size="11" text-anchor="middle" fill="#274a8f" font-weight="700" transform="rotate(-10 128 58)">HAPPY</text>
+          <path d="M24 224 q8 10 16 0 q8 10 16 0 q8 10 16 0" stroke="#e85a8a" stroke-width="4" fill="none" stroke-linecap="round"/>
+          <rect x="47" y="180" width="6" height="20" fill="#f4b8c8"/>
+          <path d="M50 166 q-6 9 0 14 q6-5 0-14z" fill="#f2a020"/>
+        </svg>
+      </div>
+
+      <!-- ✏️ EDIT YOUR LETTER TEXT HERE -->
+      <article class="body">
+        <p>Happy Birthday, my Emmanuella.</p>
+        <p>Being with you is truly one of the best things that has ever happened to me.<br> These past years with you have made me realize how one person walking into your life can change it  for the better <br>You have always being my supporter in everything i do like, from when I said I wanted to do TikTok, to producer, to musician, to forex you have being my no 1 supporter, I am sure if I ever said I want to go to the moon with nothing you will still support me.</p>
+        <p>I can’t even believe how amazing you are</p> 
+        <p>So today is your special day cause today marks the day you were born, it is also special to me because I wonder how I would be if you were not born I GUESS WE WILL NEVER KNOW </p>
+        <p>I know you always think you don’t deserve to be here or what’s your importance here but let me tell you, you are so important to every one around you from your friends to your family and me that’s to show you how amazing you are to everyone around you  </p>
+        <p>You make ordinary days feel special just by being there.I'm so grateful for every laugh we share, </p>
+        <p>You have a way of making my heart feel safe and happy at the same time. Your kindness, your strength, and the way you care for the people around you are just some of the many reasons why I admire you so much.</p>
+        <p>I am super proud of you, your journey so far and the ones to come I can’t wait for your graduation so I can celebrate you </p>
+        <p>You are really a queen that should be cherished cause there is none like you, you are special and I plan to treat you as such I already do but it can be better<br>Thank you for loving me the way you do, for supporting me even when things are difficult, and for always reminding me that I'm not alone. </p>
+        <p>Thank you for loving me the way you do, for supporting me even when things are difficult, and for always reminding me that I'm not alone. </p>
+        <p>I'm so lucky to call you mine, today and always.<br>Happy Birthday again, my chigozirim. I love you more than words can ever explain.</p>
+      </article>
+      <button class="next" id="moreBtn">there's more… &rarr;</button>
+    </div>
+  </main>
+
+  <!-- SCREEN 4: scrapbook page (from the second video) -->
+  <main class="screen" id="s4">
+    <div class="scrap">
+
+      <!-- A. hero: envelope, camera, tulips (all drawn in code, no pictures needed) -->
+      <section class="hero reveal">
+
+        <!-- ENVELOPE with letter -->
+        <figure class="slot art s-env">
+          <svg viewBox="0 0 200 200" role="img" aria-label="Open envelope with a letter">
+            <defs>
+              <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fffdf8"/><stop offset="1" stop-color="#efe7d6"/></linearGradient>
+            </defs>
+            <polygon points="10,84 100,8 190,84" fill="#ddd2ba"/>                       <!-- open back flap -->
+            <!-- the paper: slides up out of the envelope (see .paper in style.css) -->
+            <g class="paper">
+              <g transform="rotate(-8 100 90)">
+                <rect x="30" y="22" width="140" height="130" rx="4" fill="url(#paper)" stroke="#e4dac4"/>
+                <text x="100" y="58" text-anchor="middle" class="to-line">To my dearest</text>
+                <text x="100" y="92" text-anchor="middle" class="to-name"><tspan class="nm"></tspan></text>
+              </g>
+            </g>
+            <rect x="10" y="84" width="180" height="108" rx="6" fill="#efe6d2"/>          <!-- envelope body -->
+            <path d="M10 88 L100 150 L190 88" fill="#f6efe0" stroke="#d9ceb5" stroke-width="1.5"/>
+            <path d="M10 190 L84 128 M190 190 L116 128" stroke="#d9ceb5" stroke-width="1.5" fill="none"/>
+          </svg>
+        </figure>
+
+        <!-- RETRO CAMERA -->
+        <figure class="slot art s-cam">
+          <svg viewBox="0 0 200 150" role="img" aria-label="Retro camera">
+            <defs>
+              <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e9eaec"/><stop offset="1" stop-color="#9a9da3"/></linearGradient>
+              <radialGradient id="glass" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#6a7fa8"/><stop offset=".5" stop-color="#1c2230"/><stop offset="1" stop-color="#07080c"/></radialGradient>
+            </defs>
+            <rect x="8" y="30" width="184" height="104" rx="12" fill="#17181b"/>               <!-- leather body -->
+            <path d="M8 44 q0 -14 14 -14 h156 q14 0 14 14 v22 H8Z" fill="url(#metal)"/>         <!-- silver top -->
+            <rect x="12" y="18" width="30" height="14" rx="3" fill="url(#metal)"/>              <!-- flash housing -->
+            <rect x="16" y="21" width="22" height="8" rx="2" fill="#fff7d6"/>
+            <rect x="148" y="14" width="26" height="12" rx="3" fill="url(#metal)"/>             <!-- viewfinder -->
+            <rect x="153" y="17" width="16" height="6" rx="1.5" fill="#222"/>
+            <rect x="100" y="20" width="22" height="10" rx="3" fill="#c9cacd"/>                 <!-- shutter -->
+            <circle cx="100" cy="84" r="46" fill="url(#metal)"/>                                <!-- lens barrel -->
+            <circle cx="100" cy="84" r="38" fill="#2a2b2f"/>
+            <circle cx="100" cy="84" r="30" fill="url(#glass)"/>
+            <circle cx="100" cy="84" r="14" fill="#0a0b10" stroke="#3d4a6a" stroke-width="2"/>
+            <ellipse cx="88" cy="72" rx="9" ry="5" fill="#fff" opacity=".35" transform="rotate(-30 88 72)"/>
+            <circle cx="170" cy="48" r="4" fill="#c63a3a"/>
+            <!-- flash sparkle -->
+            <g fill="#fff" opacity=".95"><path d="M12 22 l3 -10 3 10 10 3 -10 3 -3 10 -3 -10 -10 -3z"/></g>
+          </svg>
+        </figure>
+
+        <!-- TULIP BOUQUET -->
+        <figure class="slot art s-flow">
+          <svg viewBox="0 0 120 220" role="img" aria-label="Bouquet of tulips">
+            <defs>
+              <g id="tulip">
+                <path d="M-15 8 C-18 -16 -10 -26 -8 -32 L-2 -18 L0 -34 L2 -18 L8 -32 C10 -26 18 -16 15 8 C11 26 -11 26 -15 8Z" fill="currentColor"/>
+                <path d="M-4 24 C-14 14 -12 -8 0 -30 C12 -8 14 14 4 24Z" fill="#fff" opacity=".28"/>
+                <path d="M-15 8 C-18 -16 -10 -26 -8 -32 L-2 -18 C-9 -6 -10 8 -4 24 C-10 22 -14 16 -15 8Z" fill="#000" opacity=".08"/>
+              </g>
+            </defs>
+            <!-- stems -->
+            <g stroke="#5f8f4a" stroke-width="4" stroke-linecap="round" fill="none">
+              <path d="M40 70 C44 100 54 120 60 150"/><path d="M62 58 C62 95 61 125 60 150"/><path d="M84 74 C80 104 68 122 60 150"/>
+            </g>
+            <!-- leaves -->
+            <path d="M58 140 C30 120 24 90 34 66 C46 90 54 112 58 140Z" fill="#6fa356"/>
+            <path d="M62 140 C92 122 100 92 92 70 C78 92 68 114 62 140Z" fill="#5f8f4a"/>
+            <!-- tulip heads -->
+            <use href="#tulip" transform="translate(38 56) rotate(-14)" style="color:#f4b6c2"/>
+            <use href="#tulip" transform="translate(62 44)"            style="color:#fbf1e2"/>
+            <use href="#tulip" transform="translate(86 60) rotate(14)"  style="color:#ec8fa6"/>
+            <!-- newspaper wrap -->
+            <path d="M14 104 L106 98 L72 208 L50 208Z" fill="#f3f1ec" stroke="#d6d2c8"/>
+            <path d="M14 104 L60 150 L106 98" fill="#e8e5dd" stroke="#d6d2c8"/>
+            <g stroke="#b9b5aa" stroke-width="2" stroke-linecap="round"><path d="M44 128 L74 126"/><path d="M48 140 L72 138"/><path d="M52 160 L66 158"/></g>
+            <rect x="46" y="148" width="28" height="7" rx="3.5" fill="#e8a0b4"/>   <!-- ribbon -->
+          </svg>
+        </figure>
+      </section>
+
+      <!-- B. open birthday card -->
+      <section class="book reveal">
+        <div class="page left">
+          <span class="charm" aria-hidden="true">&#9733;</span>
+          <div class="age"><span id="ageA">2</span>
+            <figure class="slot face" data-label="face.jpg"><img src="face.jpg" alt="" onerror="this.remove()"></figure>
+            <span id="ageB">1</span></div>
+          <p class="card-text">Happy Birthday to my favorite person. Life is so much better with you in it. I hope your day is as amazing as you are. I love you!</p>
+        </div>
+        <div class="page right">
+          <div class="paper">
+            <figure class="slot snap" data-label="card-photo.jpg"><img src="card-photo.jpg" alt="" onerror="this.remove()"></figure>
+            <span class="iloveyou">i love you</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- C. photo collage -->
+      <section class="collage-wrap">
+        <h2 class="reveal">More memories, more adventures, more moments with you, my love</h2>
+        <div class="collage">
+          <p class="note reveal">Happy birthday, <span class="nm"></span>! Life is always more fun with you. Thank you for filling my days with laughter.</p>
+          <figure class="slot ph tall reveal" data-label="pic1.jpg"><img src="pic1.jpg" alt="" onerror="this.remove()"></figure>
+          <div class="item reveal"><figure class="slot ph stamp" data-label="sun.jpg"><img src="sun.jpg" alt="" onerror="this.remove()"></figure>
+            <p class="note">Every moment with you feels like a beautiful sunset. Happy birthday to the one who makes my world bright.</p></div>
+          <figure class="slot ph wide reveal" data-label="pic3.jpg"><img src="pic3.jpg" alt="" onerror="this.remove()"></figure>
+
+          <div class="item reveal"><figure class="slot ph bw" data-label="pic4.jpg"><img src="pic4.jpg" alt="" onerror="this.remove()"></figure>
+            <p class="note">Your arms will always be my favorite place. Happy birthday to the one I love.</p></div>
+          <div class="item reveal"><figure class="slot ph bw sm" data-label="pic5.jpg"><img src="pic5.jpg" alt="" onerror="this.remove()"></figure>
+            <p class="note">No matter where we are, as long as I'm with you.</p></div>
+          <div class="item reveal"><figure class="slot ph" data-label="pic6.jpg"><img src="pic6.jpg" alt="" onerror="this.remove()"></figure>
+            <p class="note"> Happy birthday to my partner in crime.</p></div>
+          <div class="item reveal"><figure class="slot ph polaroid" data-label="pic7.jpg"><img src="pic7.jpg" alt="" onerror="this.remove()"></figure>
+            <p class="note">I'm so proud of the hardworking woman you are. Happy birthday, <span class="nm"></span>!</p></div>
+        </div>
+      </section>
+
+      <!-- D. final note -->
+      <section class="final reveal">
+        <figure class="slot lily"  data-label="lily.png"><img src="tulips.jpg" alt="" onerror="this.remove()"></figure>
+        <div class="note-card">
+          <span class="bow" aria-hidden="true">&#127872;</span>
+          <p>Happy Birthday to the most amazing girlfriend! Thank you for making my life happier and brighter every day. I'm so grateful to have you in my life. I hope your day is filled with love, laughter, and everything that makes you smile. I love you!</p>
+        </div>
+        <figure class="slot pola" data-label="polaroid.jpg"><img src="polaroid.jpg" alt="" onerror="this.remove()"></figure>
+        <figure class="slot teddy" data-label="teddy.png"><img src="teddy.jpg" alt="" onerror="this.remove()"></figure>
+      </section>
+
+      <button class="replay" id="replayBtn">&#8635; open it again</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
